@@ -7,6 +7,7 @@ const tasks = localStorage.getItem("task")?JSON.parse(localStorage.getItem("task
 
 showAllTask();
 
+
 function showAllTask(){
     tasks.forEach((value,index)=>{
         const div = document.createElement("div");
